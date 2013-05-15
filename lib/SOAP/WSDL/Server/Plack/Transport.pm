@@ -129,7 +129,7 @@ SOAP::WSDL::Server::Plack::Transport - Plack Server Transport for SOAP::WSDL
 
 =head1 VERSION
 
-version 0.005
+version 0.006
 
 =head1 DESCRIPTION
 
@@ -164,12 +164,6 @@ by the Plack server handler to dispatch to the SOAP server interface.
 =head1 SEE ALSO
 
 L<SOAP::WSDL::Server::Plack> - Server adaptor
-
-=head1 COPYRIGHT AND LICENCE
-
-Copyright 2013 by futureLAB AG under the perl
-
-This module is free software and is published under the same terms as Perl itself.
 
 =head1 AUTHOR
 

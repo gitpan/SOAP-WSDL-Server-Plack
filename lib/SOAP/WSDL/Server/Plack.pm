@@ -111,7 +111,6 @@ sub psgi_app {
 __PACKAGE__->meta->make_immutable();
 
 
-
 __END__
 =pod
 
@@ -121,14 +120,14 @@ SOAP::WSDL::Server::Plack - Plack application for SOAP::WSDL Server modules
 
 =head1 VERSION
 
-version 0.005
+version 0.006
 
 =head1 SYNOPSIS
 
 	use Plack::Runner;
 	use SOAP::WSDL::Server::Plack;
 
-	my $app = SOAP::WSDL::Server::Plack({
+	my $app = SOAP::WSDL::Server::Plack->new({
 		dispatch_to => 'My::SOAPMethodImplementation',
 		soap_service => 'My::Server::SimpleServer::SimpleServerSoap',
 	})->psgi_app();
@@ -181,12 +180,6 @@ Return a PSGI application suitable for your PSGI ready webserver.
 =head1 SEE ALSO
 
 L<SOAP::WSDL::Server::Plack::Transport> - transport class
-
-=head1 COPYRIGHT AND LICENCE
-
-Copyright 2013 by futureLAB AG under the perl
-
-This module is free software and is published under the same terms as Perl itself.
 
 =head1 AUTHOR
 

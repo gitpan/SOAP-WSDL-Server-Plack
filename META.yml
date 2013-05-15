@@ -26,4 +26,4 @@ requires:
   SOAP::WSDL: 0
   Try::Tiny: 0
   namespace::autoclean: 0
-version: 0.005
+version: 0.006

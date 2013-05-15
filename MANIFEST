@@ -7,7 +7,6 @@ README.md
 dist.ini
 lib/SOAP/WSDL/Server/Plack.pm
 lib/SOAP/WSDL/Server/Plack/Transport.pm
-ns-reg.pdf
 t/author-critic.t
 t/create_server.sh
 t/lib/Example/Elements/sayHello.pm
